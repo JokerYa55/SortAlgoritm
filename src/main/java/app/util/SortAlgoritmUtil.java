@@ -174,7 +174,7 @@ public class SortAlgoritmUtil {
      * @param beginIndex
      * @param endIndex
      */
-    public static void merge(int[] data, int beginIndex, int middleIndex, int endIndex) {
+    private static void merge(int[] data, int beginIndex, int middleIndex, int endIndex) {
         // Слияние
         int lenLeft = middleIndex - beginIndex + 1;
         int lenRigth = endIndex - middleIndex;
