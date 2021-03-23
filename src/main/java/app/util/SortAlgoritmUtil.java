@@ -73,8 +73,6 @@ public class SortAlgoritmUtil {
             qSort(data, i, endIndex);
         }
 
-//        long endTime = System.nanoTime();
-//        System.out.println("Время выполнения : " + (endTime - startTime) / 1000 + " ms.");
     }
 
     /**
